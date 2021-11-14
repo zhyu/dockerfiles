@@ -41,7 +41,7 @@ RUN groupadd -r chrome && useradd -r -g chrome -G audio,video chrome \
 EXPOSE 9515
 
 # Install python binddings for selenium
-RUN pip install selenium==3.141.0
+RUN pip install selenium==4.0.0
 
 WORKDIR /home/chrome
 
